@@ -11,4 +11,8 @@ public class HelloController {
     public String hello(){
         return "hello git";
     }
+    @GetMapping("hello01.do")
+    public String hello01(){
+        return "hello01 git";
+    }
 }
